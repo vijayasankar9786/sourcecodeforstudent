@@ -1,0 +1,141 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.F-Head {
+    height: 250px;
+    width: 100%;
+
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+}
+
+.S-Head {
+    height: 350px;
+    width: 90%;
+
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    top: 10px;
+
+}
+
+.Head-Title {
+    text-align: center;
+    font-size: 70px;
+    top: -10px;
+    font-family: cursive;
+    color: red;
+}
+
+.S-Head {}
+
+.D-R {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 250px;
+}
+
+.Step-1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: relative;
+    left: 250px;
+}
+
+.linktosub {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 350px;
+    border: 2px solid red;
+    text-decoration: none;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+}
+
+.inforsub {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    position: relative;
+    left: 350px;
+}
+
+.step-2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: relative;
+    left: 250px;
+}
+
+.download {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+    left: 350px;
+    border: 2px solid green;
+    text-decoration: none;
+    
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+}
+
+@media (max-width: 600px) {
+
+    .F-Head {
+        height: 50px;
+        font-size: 20px;
+    }
+    .Head-Title {
+        font-size: 20px;
+    }
+
+    .D-R {
+        font-size: 20px;
+        left: 20px;
+    }
+
+    .Step-1 {
+        font-size: 20px;
+        left: 20px;
+    }
+
+    .linktosub {
+        font-size: 20px;
+        left: 20px;
+
+
+    }
+
+    .inforsub {
+        font-size: 10px;
+        left: 20px;
+    }
+
+    .step-2 {
+        font-size: 20px;
+        left: 20px;
+    }
+
+    .download {
+        font-size: 20px;
+        left: 20px;
+    }
+}
